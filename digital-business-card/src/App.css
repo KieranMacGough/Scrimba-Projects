@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --card-width: 317px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F5F5F5;
+}
+
+.App {
+  margin:auto;
+  text-align: center;
+  width: 550px;
+  background-color: #23252C;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  padding: 44px;
+}
+
+.main-content {
+  margin:auto;
+  width: var(--card-width);
+  background-color: #1A1B21;
+}
+
+.picture-of-me {
+  width: var(--card-width);
+  border-radius: 10px 10px 0 0;
+}
+
+.name-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.job-title {
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+
+.website {
+  font-size: 10.24px;
+  color: #F5F5F5;
+}
+
+.email-button {
+  display: inline;
+  vertical-align: middle;
+  padding: auto;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border-style: solid #D1D5DB 1px;
+  background-color: white;
+  margin: 8px;
+}
+
+.email-img {
+  width: 16px;
+  margin: 0px 8px;
+}
+
+.email-text {
+  display: inline;
+  font-size: 14px;
+  color: #374151;
+}
+
+.linkedin-button {
+  display: inline;
+  vertical-align: middle;
+  padding: auto;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border-style: solid #D1D5DB 1px;
+  background-color: #5093E2;
+  margin: 8px;
+}
+
+
+.linkedin-img {
+  width: 16px;
+  margin: 0px 8px;
+}
+
+.linkedin-text {
+  display: inline;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.about-and-interests {
+  margin: auto;
+  text-align: left;
+  padding: 21px 36px;
+}
+
+
+.about-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F5F5F5;
+}
+
+.about-content {
+  font-size: 10.24px;
+  color: #DCDCDC;
+}
+
+.interests-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F5F5F5;
+}
+
+.interests-content {
+  font-size: 10.24px;
+  color: #DCDCDC;
+}
+
+.footer{
+  margin: auto;
+  padding: 20px 0;
+  border-radius: 0 0 10px 10px;
+  background-color: #161619;
+  width: var(--card-width);
+}
+.tw-icon {
+  width: 25px;
+  padding: 0 12px;
+}
+
+.fb-icon {
+  width: 25px;
+  padding: 0 12px;
+}
+
+.in-icon {
+  width: 25px;
+  padding: 0 12px;
+}
+
+.gh-icon {
+  width: 25px;
+  padding: 0 12px;
+}
